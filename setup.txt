@@ -1,0 +1,13 @@
+# Put this in the target field of a shortcut:
+(note the pythonw usage)
+
+C:\Users\mohrb\AppData\Local\Programs\Python\Python310\pythonw.exe "C:\...\myvault\.llmjsons\scripts\runstuff.py"
+
+# Folders
+
+Use "/vaultfolder/.llmjsons/convert_outputs/" for .json storage
+Use "/vaultfolder/.llmjsons/scripts/" for storing the scripts
+
+# Other
+
+Uses # 𝍖user, # 𝍖assistant, and # 𝍖system to make a ui out of an obsidian note page. Calls localhost:8000 for inference.
